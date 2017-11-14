@@ -1,0 +1,34 @@
+{
+
+    "dependencies": {
+        "@remobile/react-native-toast": "^1.0.7", // 提示框
+        "crypto-js": "^3.1.9-1", // JavaScript 加密库
+        "moment": "^2.19.1", // JavaScript 日期处理类库
+        "react": "16.0.0-beta.5",
+        "react-native": "0.49.3",
+        "react-native-audio": "^3.2.2", // 录音
+        "react-native-blur": "^3.2.0", // 毛玻璃效果，底部一张图片，上面放一个view，毛玻璃效果
+        "react-native-camera": "^0.10.0", // 自定义拍照页面、录制视频、扫描二维码
+        "react-native-communications": "^2.2.1",// 电话、短信、邮件、浏览器
+        "react-native-device-info": "^0.12.1", // 获取设备的信息
+        "react-native-fetch-blob": "^0.10.8", // 上传（图片、视频等）
+        "react-native-fs": "^2.8.1", // 文件的下载和保存
+        "react-native-image-crop-picker": "^0.17.3", // 本地相册和照相机来采集图片，并且提供多选、图片裁剪等功能
+        "react-native-image-picker": "^0.26.7", // 从相册、相机中选取、拍摄照片
+        "react-native-image-zoom-viewer": "^2.0.10",// 大图预览(支持手势缩放)
+        "react-native-img-cache": "^1.4.0",// 图片缓存
+        "react-native-keyboard-aware-scroll-view": "^0.3.0", // 键盘遮挡输入框的问题
+        "react-native-picker-custom": "^1.1.0", // 时间选择和城市选择
+        "react-native-scrollable-tab-view": "^0.8.0", // Tab控制器，类似网易新闻首页tab效果
+        "react-native-side-menu": "^1.1.3",// 侧栏效果
+        "react-native-sound": "^0.10.4", // 播放音频
+        "react-native-swipeout": "^2.2.2", // cell 左滑出现按钮
+        "react-native-swiper": "^1.5.13", // 轮播图
+        "react-native-video": "^2.0.0",// 播放视频
+        "react-navigation": "^1.0.0-beta.15", // navigator and tabbar
+        "react-redux": "^5.0.6",
+        "react-router": "^4.2.0",
+        "react_native_countdowntimer": "^1.0.5", // 秒杀倒计时
+        "redux": "^3.7.2"
+    }
+}

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#50000000">
+
+
+    <RelativeLayout
+            android:id="@+id/pickerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" >
+
+        <com.beefe.picker.view.PickerViewLinkage
+                android:id="@+id/pickerViewLinkage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <com.beefe.picker.view.PickerViewAlone
+                android:id="@+id/pickerViewAlone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+            android:id="@+id/barLayout"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_above="@+id/textLayout">
+
+        <TextView
+                android:id="@+id/cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="9dp" />
+
+        <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="9dp" />
+
+        <TextView
+                android:id="@+id/confirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:padding="9dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:id="@+id/textLayout"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_above="@+id/pickerLayout">
+        <TextView
+                android:id="@+id/longTimeTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="9dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E3E3E3"
+            android:layout_below="@+id/longTimeTV"
+        />
+    </RelativeLayout>
+    <RelativeLayout
+            android:id="@+id/outsideLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:layout_above="@+id/barLayout">
+    </RelativeLayout>
+</RelativeLayout>

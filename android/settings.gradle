@@ -1,0 +1,27 @@
+rootProject.name = 'RNAppModel'
+include ':react-native-blur'
+project(':react-native-blur').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-blur/android')
+include ':react-native-video'
+project(':react-native-video').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-video/android')
+include ':react-native-sound'
+project(':react-native-sound').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-sound/android')
+include ':react-native-audio'
+project(':react-native-audio').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-audio/android')
+include ':react-native-picker-custom'
+project(':react-native-picker-custom').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-picker-custom/android')
+include ':react-native-image-crop-picker'
+project(':react-native-image-crop-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-image-crop-picker/android')
+include ':react-native-camera'
+project(':react-native-camera').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-camera/android')
+include ':react-native-image-picker'
+project(':react-native-image-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-image-picker/android')
+include ':react-native-fetch-blob'
+project(':react-native-fetch-blob').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fetch-blob/android')
+include ':react-native-fs'
+project(':react-native-fs').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fs/android')
+include ':react-native-device-info'
+project(':react-native-device-info').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-device-info/android')
+include ':@remobile/react-native-toast'
+project(':@remobile/react-native-toast').projectDir = new File(rootProject.projectDir, '../node_modules/@remobile/react-native-toast/android')
+
+include ':app'
